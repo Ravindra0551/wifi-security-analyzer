@@ -4,18 +4,19 @@ Developed by **Ravindra Kumar**
 An advanced Python-based network audit simulation utility engineered to evaluate authentication handshake protocols and baseline configurations for local 802.11 structures.
 
 ## 🛠️ Software & Hardware Requirements
-- Operating System: Kali Linux / Ubuntu LTS
-- Language: Python 3.10+ Stable Runtime
-- Libraries Required: Scapy Interface Core
-- Adapter Mode: Native Monitor Substates (wlan0mon)
+- **Operating System:** Kali Linux / Ubuntu LTS
+- **Language:** Python 3.10+ Stable Runtime
+- **Libraries Required:** Scapy Interface Core
+- **Adapter Mode:** Native Monitor Substates (wlan0mon)
 
 ---
 
 ## 🖥️ SCREENSHOT 01: Monitor Mode Initialization Output
 
+```text
 ravindra@cyber-lab-laptop:~$ sudo python3 wifi_analyzer.py
 ================================================================================
-          WIFI SECURITY ANALYZER v2.0.1 (STABLE) - CORE SUBSYSTEM        
+          WIFI SECURITY ANALYZER v2.0.1 (STABLE) - CORE CORE SUBSYSTEM        
 ================================================================================
 [+] AUTHORIZED BY      : RAVINDRA KUMAR
 [+] STATION DEPLOYMENT : CYBER RESEARCH LAB - BLOCK D
@@ -32,11 +33,6 @@ ravindra@cyber-lab-laptop:~$ sudo python3 wifi_analyzer.py
 
 [SUCCESS] Wireless interface successfully renamed to: wlan0mon
 [STATUS] Raw socket insertion layer operational.
-
----
-
-## 🖥️ SCREENSHOT 02: Ambient Airwaves Scanning Mode
-
 root@cyber-lab-laptop:/home/ravindra# python3 wifi_analyzer.py --scan wlan0mon
 [+] Sniffing 802.11 wireless data streams on interface: wlan0mon
 [+] Tracking Frequency Domain: 2412MHz - 2472MHz [Active Hopping Layer Enabled]
@@ -49,11 +45,6 @@ AA:BB:CC:DD:EE:FF  -72   11       85      9   54    WPA   TKIP    PSK   Guest_Ne
 
 [POLL] Active Stations (Clients linked to target arrays):
   - Station: F8:E6:1A:BC:DE:33  --> Connected to BSSID [00:11:22:33:44:55] (Lab_WiFi_Secure)
-
----
-
-## 🖥️ SCREENSHOT 03: Deauthentication & Handshake Capture Log
-
 root@cyber-lab-laptop:/home/ravindra# python3 wifi_analyzer.py --inject
 PROJECT WORKSPACE: RAVINDRA KUMAR | ATTACK VECTOR: DEAUTH ENFORCEMENT
 --------------------------------------------------------------------------------
@@ -73,11 +64,6 @@ PROJECT WORKSPACE: RAVINDRA KUMAR | ATTACK VECTOR: DEAUTH ENFORCEMENT
 [SUCCESS] CRYPTOGRAPHIC 4-WAY HANDSHAKE ACQUIRED & VALIDATED
 ================================================================================
 [SAVED] Micro-payload saved to memory: /tmp/handshake_001122.pcap
-
----
-
-## 🖥️ SCREENSHOT 04: Vulnerability & Risk Evaluation Report Matrix
-
 root@cyber-lab-laptop:/home/ravindra# python3 wifi_analyzer.py --report
 ================================================================================
             COMPREHENSIVE WIRELESS RISK EVALUATION & AUDIT REPORT               
