@@ -1,13 +1,34 @@
-## 🖥️ Project Live Execution Screenshots
+# Wi-Fi Security Analyzer v2.0.1
+Developed by **Ravindra Kumar**
 
-### 1. Monitor Mode Initialization
-<img src="01.jpg" alt="Monitor Mode" width="100%">
+An advanced Python-based network audit simulation utility engineered to evaluate authentication handshake protocols and baseline configurations for local 802.11 structures.
 
-### 2. Ambient Airwaves Scanning
-<img src="02.jpg" alt="Wi-Fi Scan" width="100%">
+## 🛠️ Software & Hardware Requirements
+- **Operating System:** Kali Linux / Ubuntu LTS
+- **Language:** Python 3.10+ Stable Runtime
+- **Libraries Required:** Scapy Interface Core
+- **Adapter Mode:** Native Monitor Substates (wlan0mon)
 
-### 3. Deauthentication & Handshake Capture
-<img src="03.jpg" alt="Handshake Capture" width="100%">
+---
 
-### 4. Vulnerability Audit Report
-<img src="04.jpg" alt="Vulnerability Report" width="100%">
+## 🖥️ SCREENSHOT 01: Monitor Mode Initialization
+
+![SCREENSHOT 01: Monitor Mode](01.jpg)
+
+---
+
+## 🖥️ SCREENSHOT 02: Ambient Airwaves Scanning Mode
+
+![SCREENSHOT 02: Airwaves Scanning](02.jpg)
+
+---
+
+## 🖥️ SCREENSHOT 03: Deauthentication & Handshake Capture
+
+![SCREENSHOT 03: Handshake Capture](03.jpg)
+
+---
+
+## 🖥️ SCREENSHOT 04: Vulnerability & Risk Evaluation Report
+
+![SCREENSHOT 04: Vulnerability Report](04.jpg)
