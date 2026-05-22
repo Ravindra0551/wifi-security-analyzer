@@ -56,5 +56,8 @@ Calculates overall risk parameters based on weak passphrase verification layers 
 
 ---
 
-### ⚖️ Academic Disclaimer
-*This framework is compiled strictly for educational evaluations, network auditing simulations, and authorized classroom practical submissions under the B.Tech curriculum design instructions. Lateral deployment outside designated environments is prohibited.*
+---
+
+### ⚖️ Academic Disclaimer & Institutional Compliance
+*This framework and its associated document structures are engineered strictly for academic evaluation, research analysis, and laboratory practical submissions under the **Dr. APJ Abdul Kalam Technical University (AKTU)** curriculum guidelines. The implementation maps frequency domains and authentication loops within isolated test parameters solely to study network defense mechanism vulnerabilities. Any lateral deployment, execution across unauthorized networks, or usage outside designated educational monitoring spaces is strictly prohibited and non-compliant with standard security research frameworks.*
+
