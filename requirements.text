@@ -1,0 +1,3 @@
+scapy==2.5.0
+impacket==0.11.0
+pycryptodome==3.19.0
