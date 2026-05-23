@@ -17,7 +17,7 @@ An advanced automation utility engineered to evaluate authentication handshake v
 ## ⚙️ Core Technical Specifications
 - **Operating System Environment:** Linux Kernel Architecture Matrix (Kali Core x86_64 Suite)
 - **Dependency Layer:** Scapy Structural Protocol Dissector Layer
-- **Hardware Interface Mode:** Physical Adapter Substates (Monitor Interface Mode `wlan0mon`)
+- **Hardware Interface Mode:** Physical Adapter Substates (Monitor Interface Mode wlan0mon)
 
 ---
 
@@ -38,7 +38,7 @@ Parses over-the-air raw frame structures across frequency ranges to track signal
 ---
 
 ### 🔹 Step 3: Deauthentication Verification & Handshake Capture
-Validates structural behavior under forced disassociation conditions and logs EAPOL four-way cryptographic transport tokens into a localized `.pcap` storage array.
+Validates structural behavior under forced disassociation conditions and logs EAPOL four-way cryptographic transport tokens into a localized .pcap storage array.
 
 ![Step 3 Output](03.jpg)
 
@@ -52,22 +52,20 @@ Calculates overall risk parameters based on weak passphrase verification layers 
 ---
 
 ## 📊 Functional Security Verification Matrix
-
-- **Privilege Gate Validation:** Validates structural root-level access layers -> **✔️ PASSED**
-- **RF Monitor Hook Setup:** Shifts adapter to raw radio frame telemetry -> **✔️ ACTIVE**
-- **Deauth Injection Subsystem:** Evaluates disassociation sequence telemetry -> **✔️ STABLE**
-- **EAPOL Handshake Capture:** Stores four-way handshake cryptographic tokens -> **✔️ CAPTURED**
-- **Audit Report Generator:** Compiles final threat assessments and risk ratings -> **✔️ COMPILED**
+- **Privilege Gate Validation:** Validates structural root-level access layers -> ✔️ PASSED
+- **RF Monitor Hook Setup:** Shifts adapter to raw radio frame telemetry -> ✔️ ACTIVE
+- **Deauth Injection Subsystem:** Evaluates disassociation sequence telemetry -> ✔️ STABLE
+- **EAPOL Handshake Capture:** Stores four-way handshake cryptographic tokens -> ✔️ CAPTURED
+- **Audit Report Generator:** Compiles final threat assessments and risk ratings -> ✔️ COMPILED
 
 ---
 
 ## 🔐 Structural Defensive Mitigation Matrix
-
-- **Weak WPA2 Passphrase Flaw:** Enforce minimum 16-character asymmetric credentials with strong entropy keys. (Stops offline wordlist calculation matching).
-- **WPS Registry Exposure Risk:** Disable Wi-Fi Protected Setup (WPS) entirely via hardware firmware control panels. (Neutralizes brute-force register tracking routines).
-- **Forced Disassociations Gap:** Activate mandatory IEEE 802.11w Management Frame Protection (MFP/PMF) paths. (Restricts arbitrary network channel manipulation).
+- **Weak WPA2 Passphrase Flaw:** Enforce complex asymmetric credentials with strong entropy keys to stop offline wordlist calculation matching.
+- **WPS Registry Exposure Risk:** Disable Wi-Fi Protected Setup (WPS) entirely via hardware firmware control panels to neutralize brute-force register tracking routines.
+- **Forced Disassociations Gap:** Activate mandatory IEEE 802.11w Management Frame Protection (MFP/PMF) paths to restrict arbitrary network channel manipulation.
 
 ---
 
 ### ⚖️ Academic Disclaimer & Institutional Compliance
-*This framework and its associated document structures are engineered strictly for academic evaluation, research analysis, and laboratory practical submissions under the **Dr. APJ Abdul Kalam Technical University (AKTU)** curriculum guidelines. The implementation maps frequency domains and authentication loops within isolated test parameters solely to study network defense mechanism vulnerabilities. Any lateral deployment, execution across unauthorized networks, or usage outside designated educational monitoring spaces is strictly prohibited and non-compliant with standard security research frameworks.*
+*This framework and its associated document structures are engineered strictly for academic evaluation, research analysis, and laboratory practical submissions under the Dr. APJ Abdul Kalam Technical University (AKTU) curriculum guidelines. The implementation maps frequency domains and authentication loops within isolated test parameters solely to study network defense mechanism vulnerabilities. Any lateral deployment, execution across unauthorized networks, or usage outside designated educational monitoring spaces is strictly prohibited and non-compliant with standard security research frameworks.*
