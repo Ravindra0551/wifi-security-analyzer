@@ -7,22 +7,56 @@
   <img src="https://img.shields.io/badge/Framework-Scapy%20Core-orange?style=for-the-badge" alt="Scapy Framework">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/issues/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Issues">
+</p>
+
+<p align="center">
+  <img src="https://github.com/ravindra-kumar/wifi-security-analyzer/raw/main/cyber_banner.gif" alt="Cyber Security Hub Banner" width="100%">
+</p>
+
 ---
 
 ### 👤 Investigator Information
 - **Principal Developer:** Ravindra Kumar
-- **Academic Domain:** B.Tech Information Technology
+- **Academic Domain:** B.Tech Computer Science / Information Technology
 - **Project Scope:** Academic Lab & Seminar Evaluation Module
+
+---
+
+## 🗺️ Quick Navigation
+* [Abstract & Project Overview](#-abstract--project-overview)
+* [Core Technical Specifications](#-core-technical-specifications)
+* [System Architecture Workflow](#-system-architecture-workflow)
+* [Live Project Execution Logs](#%EF%B8%8F-live-project-execution-logs)
+* [Functional Security Verification Matrix](#-functional-security-verification-matrix)
+* [Structural Defensive Mitigation Matrix](#-structural-defensive-mitigation-matrix)
+* [Institutional Compliance & Disclaimer](#%EF%B8%8F-academic-disclaimer--institutional-compliance)
 
 ---
 
 ## 📝 Abstract & Project Overview
 An advanced automation utility engineered to evaluate authentication handshake vulnerabilities and baseline structural gaps within local 802.11 environments. The framework maps frequency domains, tracks unencrypted management broadcasts, and logs authentication metrics for verification checks.
 
+---
+
 ## ⚙️ Core Technical Specifications
-* **Operating System Environment:** Linux Kernel Architecture Matrix (Kali Core x86_64 Suite)
-* **Dependency Layer:** Scapy Structural Protocol Dissector Layer
-* **Hardware Interface Mode:** Physical Adapter Substates (Monitor Interface Mode `wlan0mon`)
+
+> ### 🖥️ Host Environment Requirements
+> * **OS Layer:** Linux Kernel Matrix (Kali Core / Ubuntu Minimal x86_64)
+> * **Privilege Level:** Interactive Root Validation Enforced (`UID=0`)
+> * **Hardware Mode:** Wireless Interface Substate Injection (`wlan0mon`)
+
+---
+
+## 📐 System Architecture Workflow
+Below is the dynamic visual visualization of the data parsing and socket injection layer mapping flow executed by the Python core engine:
+
+<p align="center">
+  <img src="https://github.com/ravindra-kumar/wifi-security-analyzer/raw/main/architecture_animation.gif" alt="System Architecture Workflow" width="90%">
+</p>
 
 ---
 
@@ -30,19 +64,39 @@ An advanced automation utility engineered to evaluate authentication handshake v
 
 ### Step 1: Monitor Mode Initialization
 Checks for root validation level (UID=0) and changes standard interface configurations into monitor substates.
-![Step 1: Monitor Mode](01.jpg)
+<img src="01.jpg" alt="Step 1: Monitor Mode" width="100%">
 
 ### Step 2: Ambient Airwaves Scanning Mode
 Parses over-the-air raw frame structures across frequency ranges to track signal strengths and cipher keys.
-![Step 2: Airwaves Scanning](02.jpg)
+<img src="02.jpg" alt="Step 2: Airwaves Scanning" width="100%">
+
+<p align="center">
+  <img src="https://github.com/ravindra-kumar/wifi-security-analyzer/raw/main/network_grid.gif" alt="Network Mapping Grid Matrix" width="80%">
+</p>
 
 ### Step 3: Deauthentication Verification & Handshake Capture
 Validates structural behavior under forced disassociation conditions and logs EAPOL four-way cryptographic transport tokens into a localized `.pcap` storage array.
-![Step 3: Handshake Capture](03.jpg)
+<img src="03.jpg" alt="Step 3: Handshake Capture" width="100%">
 
 ### Step 4: Vulnerability Assessment & Hardening Report
 Calculates overall risk parameters based on weak passphrase verification layers and flags missing protection management protocols.
-![Step 4: Vulnerability Report](04.jpg)
+<img src="04.jpg" alt="Step 4: Vulnerability Report" width="100%">
+
+<p align="center">
+  <img src="https://github.com/ravindra-kumar/wifi-security-analyzer/raw/main/threat_ratings.gif" alt="Dynamic Threat Rating Scale Chart" width="50%">
+</p>
+
+---
+
+## 📊 Functional Security Verification Matrix
+
+| Module Target | Layer Protocol | Validation Objective | Operational Status |
+| :--- | :---: | :--- | :---: |
+| **Privilege Gate** | System Kernel | Validates structural root-level access layers | `✔️ PASSED` |
+| **RF Monitor Hook** | 802.11 PHY | Shifts adapter to raw radio frame telemetry | `✔️ ACTIVE` |
+| **Deauth Injection** | Mgmt Frame | Evaluates disassociation sequence telemetry | `✔️ STABLE` |
+| **EAPOL Capture** | WPA2/WPA3 | Stores four-way handshake cryptographic tokens | `✔️ CAPTURED` |
+| **Audit Generator** | Local Matrix | Compiles final threat assessments and risk ratings | `✔️ COMPILED` |
 
 ---
 
