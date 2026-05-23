@@ -7,6 +7,12 @@
   <img src="https://img.shields.io/badge/Framework-Scapy%20Core-orange?style=for-the-badge" alt="Scapy Framework">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Stars">
+  <img src="https://img.shields.io/github/forks/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Forks">
+  <img src="https://img.shields.io/github/issues/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Issues">
+</p>
+
 ---
 
 ### 👤 Investigator Information
