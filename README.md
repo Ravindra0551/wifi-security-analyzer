@@ -1,18 +1,5 @@
 # 🛡️ Wi-Fi Security Analyzer v2.0.1
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Security-Simulation-red?style=for-the-badge&logo=target" alt="Security Simulation">
-  <img src="https://img.shields.io/badge/Language-Python%203.10-blue?style=for-the-badge&logo=python" alt="Python Language">
-  <img src="https://img.shields.io/badge/Platform-Kali%20Linux-purple?style=for-the-badge&logo=kalilinux" alt="Kali Linux Platform">
-  <img src="https://img.shields.io/badge/Framework-Scapy%20Core-orange?style=for-the-badge" alt="Scapy Framework">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Stars">
-  <img src="https://img.shields.io/github/forks/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Forks">
-  <img src="https://img.shields.io/github/issues/ravindra-kumar/wifi-security-analyzer?style=social" alt="GitHub Issues">
-</p>
-
 ---
 
 ### 👤 Investigator Information
@@ -25,10 +12,12 @@
 ## 📝 Abstract & Project Overview
 An advanced automation utility engineered to evaluate authentication handshake vulnerabilities and baseline structural gaps within local 802.11 environments. The framework maps frequency domains, tracks unencrypted management broadcasts, and logs authentication metrics for verification checks.
 
+---
+
 ## ⚙️ Core Technical Specifications
-* **Operating System Environment:** Linux Kernel Architecture Matrix (Kali Core x86_64 Suite)
-* **Dependency Layer:** Scapy Structural Protocol Dissector Layer
-* **Hardware Interface Mode:** Physical Adapter Substates (Monitor Interface Mode `wlan0mon`)
+- **Operating System Environment:** Linux Kernel Architecture Matrix (Kali Core x86_64 Suite)
+- **Dependency Layer:** Scapy Structural Protocol Dissector Layer
+- **Hardware Interface Mode:** Physical Adapter Substates (Monitor Interface Mode `wlan0mon`)
 
 ---
 
@@ -64,23 +53,19 @@ Calculates overall risk parameters based on weak passphrase verification layers 
 
 ## 📊 Functional Security Verification Matrix
 
-| Module Target | Layer Protocol | Validation Objective | Operational Status |
-| :--- | :---: | :--- | :---: |
-| **Privilege Gate** | System Kernel | Validates structural root-level access layers | `✔️ PASSED` |
-| **RF Monitor Hook** | 802.11 PHY | Shifts adapter to raw radio frame telemetry | `✔️ ACTIVE` |
-| **Deauth Injection** | Mgmt Frame | Evaluates disassociation sequence telemetry | `✔️ STABLE` |
-| **EAPOL Capture** | WPA2/WPA3 | Stores four-way handshake cryptographic tokens | `✔️ CAPTURED` |
-| **Audit Generator** | Local Matrix | Compiles final threat assessments and risk ratings | `✔️ COMPILED` |
+- **Privilege Gate Validation:** Validates structural root-level access layers -> **✔️ PASSED**
+- **RF Monitor Hook Setup:** Shifts adapter to raw radio frame telemetry -> **✔️ ACTIVE**
+- **Deauth Injection Subsystem:** Evaluates disassociation sequence telemetry -> **✔️ STABLE**
+- **EAPOL Handshake Capture:** Stores four-way handshake cryptographic tokens -> **✔️ CAPTURED**
+- **Audit Report Generator:** Compiles final threat assessments and risk ratings -> **✔️ COMPILED**
 
 ---
 
 ## 🔐 Structural Defensive Mitigation Matrix
 
-| Identified Risk Point | Technical Control Mechanism | Tactical Hardening Target |
-| :--- | :--- | :--- |
-| **Weak WPA2 Passphrase** | Enforce minimum 16-character asymmetric credentials with strong entropy keys. | Stops offline wordlist calculation matching. |
-| **WPS Registry Exposure** | Disable Wi-Fi Protected Setup (WPS) entirely via hardware firmware control panels. | Neutralizes brute-force register tracking routines. |
-| **Forced Disassociations** | Activate mandatory IEEE 802.11w Management Frame Protection (MFP/PMF) paths. | Restricts arbitrary network channel manipulation. |
+- **Weak WPA2 Passphrase Flaw:** Enforce minimum 16-character asymmetric credentials with strong entropy keys. (Stops offline wordlist calculation matching).
+- **WPS Registry Exposure Risk:** Disable Wi-Fi Protected Setup (WPS) entirely via hardware firmware control panels. (Neutralizes brute-force register tracking routines).
+- **Forced Disassociations Gap:** Activate mandatory IEEE 802.11w Management Frame Protection (MFP/PMF) paths. (Restricts arbitrary network channel manipulation).
 
 ---
 
