@@ -1,15 +1,13 @@
 # Wi-Fi Security Analyzer v2.0.1
 
----
-
 ### Investigator Information
 - Principal Developer: Ravindra Kumar
 - Academic Domain: B.Tech Information Technology
-- Project Scope: Academic Lab and Seminar Evaluation Module
+- Project Scope: Academic Lab & Seminar Evaluation Module
 
 ---
 
-## Abstract and Project Overview
+## Abstract & Project Overview
 An advanced automation utility engineered to evaluate authentication handshake vulnerabilities and baseline structural gaps within local 802.11 environments. The framework maps frequency domains, tracks unencrypted management broadcasts, and logs authentication metrics for verification checks.
 
 ---
@@ -26,28 +24,28 @@ An advanced automation utility engineered to evaluate authentication handshake v
 ### Step 1: Monitor Mode Initialization
 Checks for root validation level (UID=0) and changes standard interface configurations into monitor substates.
 
-![Step 1 Output](01.jpg)
+01.jpg
 
 ---
 
 ### Step 2: Ambient Airwaves Scanning Mode
 Parses over-the-air raw frame structures across frequency ranges to track signal strengths and cipher keys.
 
-![Step 2 Output](02.jpg)
+02.jpg
 
 ---
 
-### Step 3: Deauthentication Verification and Handshake Capture
+### Step 3: Deauthentication Verification & Handshake Capture
 Validates structural behavior under forced disassociation conditions and logs EAPOL four-way cryptographic transport tokens into a localized .pcap storage array.
 
-![Step 3 Output](03.jpg)
+03.jpg
 
 ---
 
-### Step 4: Vulnerability Assessment and Hardening Report
+### Step 4: Vulnerability Assessment & Hardening Report
 Calculates overall risk parameters based on weak passphrase verification layers and flags missing protection management protocols.
 
-![Step 4 Output](04.jpg)
+04.jpg
 
 ---
 
@@ -67,5 +65,5 @@ Calculates overall risk parameters based on weak passphrase verification layers 
 
 ---
 
-### Academic Disclaimer and Institutional Compliance
+### Academic Disclaimer & Institutional Compliance
 This framework and its associated document structures are engineered strictly for academic evaluation, research analysis, and laboratory practical submissions under the Dr. APJ Abdul Kalam Technical University (AKTU) curriculum guidelines. The implementation maps frequency domains and authentication loops within isolated test parameters solely to study network defense mechanism vulnerabilities. Any lateral deployment, execution across unauthorized networks, or usage outside designated educational monitoring spaces is strictly prohibited and non-compliant with standard security research frameworks.
