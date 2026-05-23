@@ -5,7 +5,7 @@
 ### Investigator Information
 - Principal Developer: Ravindra Kumar
 - Academic Domain: B.Tech Information Technology
-- Project Scope: Academic Lab & Seminar Evaluation Module
+- Project Scope: Academic Lab and Seminar Evaluation Module
 
 ---
 
